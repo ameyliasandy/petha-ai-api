@@ -54,39 +54,6 @@ def topsis(matrix: list[list[float]], weights: list[float], impacts: list[str]) 
 
     return scores.tolist()
 
-
-# ─────────────────────────────────────────────
-#  ENDPOINT: TERDEKAT
-# ─────────────────────────────────────────────
-#
-#  Kriteria:
-#    C1  jarak_km      → cost  (-)  bobot 0.35
-#    C2  rating        → benefit (+) bobot 0.30
-#    C3  halal_score   → benefit (+) bobot 0.25  (certified=3, self_claimed=2, none=1)
-#    C4  jumlah_menu   → benefit (+) bobot 0.10
-#
-#  Request body (JSON):
-#  {
-#    "restorans": [
-#      {
-#        "id_restoran": 1,
-#        "nama_restoran": "Warung Sate",
-#        "kota": "Batam",
-#        "rating": 4.5,
-#        "status_halal": "certified",   // certified | self_claimed | none
-#        "jarak_km": 1.2,
-#        "jumlah_menu": 12
-#      }, ...
-#    ]
-#  }
-#
-#  Response:
-#  {
-#    "ranked": [
-#      { ...restoran fields..., "topsis_score": 0.87, "rank": 1 }, ...
-#    ]
-#  }
-
 @app.post("/topsis/terdekat")
 def topsis_terdekat():
     data = request.get_json(force=True)
@@ -95,43 +62,35 @@ def topsis_terdekat():
     if not restorans:
         return jsonify({"ranked": [], "message": "Tidak ada data restoran"}), 200
 
-    HALAL_MAP = {"certified": 3, "self_claimed": 2, "none": 1}
-
     matrix = []
+
     for r in restorans:
-        jarak    = float(r.get("jarak_km", 999))
-        rating   = float(r.get("rating") or 0)
-        halal    = HALAL_MAP.get(r.get("status_halal", "none"), 1)
-        n_menu   = float(r.get("jumlah_menu", 0))
-        matrix.append([jarak, rating, halal, n_menu])
 
-    weights = [0.35, 0.30, 0.25, 0.10]
-    impacts = ['-',  '+',  '+',  '+']
+        jarak = float(r.get("jarak_km",999))
 
-    scores = topsis(matrix, weights, impacts)
+        harga = float(r.get("harga",999999))
 
-    ranked = []
-    for i, r in enumerate(restorans):
-        ranked.append({**r, "topsis_score": round(scores[i], 4)})
+        rating = float(r.get("rating",0))
 
-    ranked.sort(key=lambda x: x["topsis_score"], reverse=True)
-    for idx, item in enumerate(ranked):
-        item["rank"] = idx + 1
+        jam = float(r.get("jam_operasional",0))
 
-    return jsonify({"ranked": ranked})
+        matrix.append([
+            jarak,
+            harga,
+            rating,
+            jam
+        ])
 
+        weights = [
+            0.40,
+            0.25,
+            0.20,
+            0.15
+        ]
 
-# ─────────────────────────────────────────────
-#  HEALTH CHECK
-# ─────────────────────────────────────────────
-
-@app.get("/")
-def root():
-    return jsonify({
-        "status": "Petha TOPSIS API aktif",
-        "endpoint": "POST /topsis/terdekat"
-    })
-
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001, debug=False)
+        impacts = [
+            '-',
+            '-',
+            '+',
+            '+'
+        ]
