@@ -202,3 +202,8 @@ def get_rekomendasi_simple(user_id: int, n: int = 5):
         return {"user_id": user_id, "rekomendasi": rekomendasi}
     except Exception as e:
         return {"error": str(e)}
+    # ── MOUNT FLASK APP (TOPSIS) ──────────────────────────────────
+from a2wsgi import WSGIMiddleware
+from topsis_api import app as flask_app
+
+app.mount("/", WSGIMiddleware(flask_app))
