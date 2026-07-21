@@ -1,35 +1,31 @@
-"id_restoran","nama_restoran","deskripsi","kota","status_halal","harga_rata_rata_min","harga_rata_rata_max","rating","jumlah_ulasan"
-"6","Bakery Halimah","Kue dan roti halal homemade.","Batam",,"5000","25000","4.2","88"
-"7","Warung Ayam Juara","Warung Ayam Juara menyajikan ayam geprek crispy dengan sambal bawang khas yang bikin nagih.","Batam",,"15000","30000","4.8","243"
-"8","Rumah Makan Saghara","Masakan padang halal berkualitas.","Batam",,"20000","50000","4.5","120"
-"9","Bakery Halimah","Kue dan roti halal homemade.","Batam",,"5000","25000","4.2","88"
-"10","Kampoeng Noodle","Kampoeng Noodle merupakan kedai mie yang menyediakan berbagai macam olahan mie dengan bumbu khas.","Batam","certified",NULL,NULL,"0.0","0"
-"11","Donburo","Donburo merupakan restoran yang menyediakan makanan khas Jepang.","Batam","certified",NULL,NULL,"0.0","0"
-"12","Holy Meat and Grill","Holy Meat and Grill merupakan resto yang menyediakan makanan spesialis daging panggang.","Batam","certified",NULL,NULL,"0.0","0"
-"13","Ikan Bakar Cianjur","Ikan Bakar Cianjur merupakan resto yang menyediakan makanan dengan berbagai macam menu khas nusantara.","Batam","certified",NULL,NULL,"0.0","0"
-"14","Warung Taburai","Warung Taburai merupakan Rumah Makan yang menyediakan makanan khas nusantara khususnya Sumatera Barat.","Batam","certified",NULL,NULL,"0.0","0"
-"15","Maru Bake House","Maru Bake House merupakan toko roti yang menyediakan berbagai macam jenis roti halal.","Batam","certified",NULL,NULL,"0.0","0"
-"16","Mie Tarempa","Mie Tarempa merupakan restoran yang menyediakan aneka makanan khas Kepulauan Riau.","Batam","certified",NULL,NULL,"0.0","0"
-"17","Bebek Carok","Bebek Carok merupakan restoran yang menyediakan makanan khas nusantara yang berasal dari Madura.","Batam","certified",NULL,NULL,"0.0","0"
-"18","Marugame","Marugame merupakan restoran yang menyediakan makanan khas mie Jepang dengan berbagai macam menu pilihan.","Batam","certified",NULL,NULL,"0.0","0"
-"19","KFC Fanindo","KFC merupakan restoran cepat saji yang menyediakan berbagai olahan ayam goreng dan menu lainnya.","Batam","none",NULL,NULL,"0.0","0"
-"20","Burger King","Burger King merupakan restoran cepat saji yang menyediakan berbagai olahan burger dan menu lainnya.","Batam","certified",NULL,NULL,"0.0","0"
-"21","Mako","Mako merupakan toko kue dan roti yang menjual berbagai macam kue dan roti seperti lapis legit, kue kering, dan lainnya.","Batam","certified",NULL,NULL,"0.0","0"
-"22","Kebuli Saudi","Kebuli Saudi merupakan restoran khas Timur Tengah yang menjual nasi kebuli beserta aneka olahan ayam.","Batam","self_claimed",NULL,NULL,"0.0","0"
-"23","Morning Bakery","Morning Bakery merupakan restoran yang menyediakan aneka makanan dan minuman untuk sarapan dan makan siang.","Batam","certified",NULL,NULL,"0.0","0"
-"24","Ayam Gepuk Pak Gembus","Ayam Gepuk Pak Gembus menyediakan berbagai aneka ayam goreng dengan sambal pedas yang khas.","Batam","certified",NULL,NULL,"0.0","0"
-"25","Warung Jowo Pacitan","Warung Jowo Pacitan menyediakan aneka makanan nasi dengan lauk berbagai macam khas masakan Jawa.","Batam","self_claimed",NULL,NULL,"0.0","0"
-"26","Mula Patisserie","Mula Patisserie menyediakan aneka makanan dan minuman terkhusus berbagai macam dessert.","Batam","certified",NULL,NULL,"0.0","0"
-"27","Sambal Bakaran","Sambal Bakaran menyediakan aneka hidangan ayam goreng dengan sambal khas.","Batam","certified",NULL,NULL,"0.0","0"
-"28","Daun Pisang Resto","Daun Pisang Resto menyediakan aneka macam makanan berat seperti nasi maupun makanan ringan dan dessert.","Batam","certified",NULL,NULL,"0.0","0"
-"29","Se'indonesia Sei Sapi","Se'indonesia menyediakan makanan sei sapi dan ayam dengan cita rasa yang khas.","Batam","certified",NULL,NULL,"0.0","0"
-"30","Dondon","Dondon merupakan restoran yang menyediakan aneka makanan khas Jepang.","Batam","certified",NULL,NULL,"0.0","0"
-"31","Rumah Makan Sunda Ibu Joko","Rumah Makan Sunda Ibu Joko menyediakan makanan dengan cita rasa khas Sunda.","Batam","certified",NULL,NULL,"0.0","0"
-"32","Gultik Pak Wongso","Gultik Pak Wongso menyediakan aneka makanan seperti gultik, bakaran, dan lainnya.","Batam","certified",NULL,NULL,"0.0","0"
-"33","RM. Pondok Kriuk","RM. Pondok Kriuk menyediakan berbagai macam makanan khas nusantara.","Batam","self_claimed",NULL,NULL,"0.0","0"
-"34","Tjap Nyonya","Tjap Nyonya menyediakan berbagai macam menu Ramen dengan citarasa yang khas.","Batam","self_claimed",NULL,NULL,"0.0","0"
-"35","Kedai Kopi & Roti Atok's","Kedai Kopi Atok's menyediakan aneka macam makanan dan minuman khas nusantara.","Batam","self_claimed",NULL,NULL,"0.0","0"
-"36","Love Seafood Batam Centre","Love Seafood menyediakan aneka macam olahan seafood segar.","Batam","certified",NULL,NULL,"0.0","0"
-"37","Saung Sunda Sawargi","Saung Sunda Sawargi menyediakan aneka macam makanan khas Sunda.","Batam","self_claimed",NULL,NULL,"0.0","0"
-"38","Martabak Pecenongan 78","Martabak Pecenongan 78 menyediakan berbagai macam martabak dengan topping yang melimpah.","Batam","certified",NULL,NULL,"0.0","0"
-"39","Warung Sego Sambel","Warung Sego Sambel menyediakan berbagai macam makanan dengan citarasa nusantara.","Batam","self_claimed",NULL,NULL,"0.0","0"
+id_restoran,nama_restoran,deskripsi,kota,status_halal,harga_rata_rata_min,harga_rata_rata_max,rating,jumlah_ulasan
+10,Kampoeng Noodle,Kampoeng Noodle merupakan kedai mie yang menyediakan berbagai macam olahan mie dengan bumbu khas.,Batam,certified,18000.0,35000.0,0.0,9
+11,Donburo,Donburo merupakan restoran yang menyediakan makanan khas Jepang.,Batam,certified,25000.0,50000.0,0.0,10
+12,Holy Meat and Grill,Holy Meat and Grill merupakan resto yang menyediakan makanan spesialis daging panggang.,Batam,certified,45000.0,90000.0,0.0,10
+13,Ikan Bakar Cianjur,Ikan Bakar Cianjur merupakan resto yang menyediakan makanan dengan berbagai macam menu khas nusantara.,Batam,certified,30000.0,70000.0,0.0,3
+14,Warung Taburai,Warung Taburai merupakan Rumah Makan yang menyediakan makanan khas nusantara khususnya Sumatera Barat.,Batam,certified,15000.0,30000.0,0.0,5
+15,Maru Bake House,Maru Bake House merupakan toko roti yang menyediakan berbagai macam jenis roti halal.,Batam,certified,20000.0,45000.0,0.0,4
+16,Mie Tarempa,Mie Tarempa merupakan restoran yang menyediakan aneka makanan khas Kepulauan Riau.,Batam,certified,15000.0,30000.0,0.0,8
+17,Bebek Carok,Bebek Carok merupakan restoran yang menyediakan makanan khas nusantara yang berasal dari Madura.,Batam,certified,25000.0,45000.0,0.0,6
+18,Marugame,Marugame merupakan restoran yang menyediakan makanan khas mie Jepang dengan berbagai macam menu pilihan.,Batam,certified,35000.0,60000.0,0.0,8
+19,KFC Fanindo,KFC merupakan restoran cepat saji yang menyediakan berbagai olahan ayam goreng dan menu lainnya.,Batam,certified,20000.0,50000.0,0.0,6
+20,Burger King,Burger King merupakan restoran cepat saji yang menyediakan berbagai olahan burger dan menu lainnya.,Batam,certified,25000.0,55000.0,0.0,12
+21,Mako,"Mako merupakan toko kue dan roti yang menjual berbagai macam kue dan roti seperti lapis legit, kue kering, dan lainnya.",Batam,certified,20000.0,40000.0,0.0,9
+22,Kebuli Saudi,Kebuli Saudi merupakan restoran khas Timur Tengah yang menjual nasi kebuli beserta aneka olahan ayam.,Batam,self_claimed,30000.0,70000.0,0.0,7
+23,Morning Bakery,Morning Bakery merupakan restoran yang menyediakan aneka makanan dan minuman untuk sarapan dan makan siang.,Batam,certified,12000.0,30000.0,0.0,8
+24,Ayam Gepuk Pak Gembus,Ayam Gepuk Pak Gembus menyediakan berbagai aneka ayam goreng dengan sambal pedas yang khas.,Batam,certified,18000.0,35000.0,0.0,5
+25,Warung Jowo Pacitan,Warung Jowo Pacitan menyediakan aneka makanan nasi dengan lauk berbagai macam khas masakan Jawa.,Batam,self_claimed,15000.0,30000.0,0.0,10
+26,Mula Patisserie,Mula Patisserie menyediakan aneka makanan dan minuman terkhusus berbagai macam dessert.,Batam,certified,25000.0,50000.0,0.0,6
+27,Sambal Bakaran,Sambal Bakaran menyediakan aneka hidangan ayam goreng dengan sambal khas.,Batam,certified,20000.0,40000.0,0.0,10
+28,Daun Pisang Resto,Daun Pisang Resto menyediakan aneka macam makanan berat seperti nasi maupun makanan ringan dan dessert.,Batam,certified,25000.0,50000.0,0.0,7
+29,Se'indonesia Sei Sapi,Se'indonesia menyediakan makanan sei sapi dan ayam dengan cita rasa yang khas.,Batam,certified,35000.0,70000.0,0.0,7
+30,Dondon,Dondon merupakan restoran yang menyediakan aneka makanan khas Jepang.,Batam,certified,20000.0,45000.0,0.0,6
+31,Rumah Makan Sunda Ibu Joko,Rumah Makan Sunda Ibu Joko menyediakan makanan dengan cita rasa khas Sunda.,Batam,certified,18000.0,35000.0,0.0,3
+32,Gultik Pak Wongso,"Gultik Pak Wongso menyediakan aneka makanan seperti gultik, bakaran, dan lainnya.",Batam,certified,15000.0,30000.0,0.0,8
+33,RM. Pondok Kriuk,RM. Pondok Kriuk menyediakan berbagai macam makanan khas nusantara.,Batam,self_claimed,18000.0,35000.0,0.0,8
+34,Tjap Nyonya,Tjap Nyonya menyediakan berbagai macam menu Ramen dengan citarasa yang khas.,Batam,self_claimed,25000.0,50000.0,0.0,7
+35,Kedai Kopi & Roti Atok's,Kedai Kopi Atok's menyediakan aneka macam makanan dan minuman khas nusantara.,Batam,self_claimed,,,0.0,10
+36,Love Seafood Batam Centre,Love Seafood menyediakan aneka macam olahan seafood segar.,Batam,certified,,,0.0,9
+37,Saung Sunda Sawargi,Saung Sunda Sawargi menyediakan aneka macam makanan khas Sunda.,Batam,self_claimed,,,0.0,5
+38,Martabak Pecenongan 78,Martabak Pecenongan 78 menyediakan berbagai macam martabak dengan topping yang melimpah.,Batam,certified,,,0.0,8
+39,Warung Sego Sambel,Warung Sego Sambel menyediakan berbagai macam makanan dengan citarasa nusantara.,Batam,self_claimed,,,0.0,6
