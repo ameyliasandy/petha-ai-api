@@ -150,9 +150,10 @@ if __name__ == "__main__":
     print("Menunggu request dari Laravel...")
     print("=" * 50)
 
+    import os
+
     app.run(
-        host="127.0.0.1",
-        port=5001,
-        debug=True,
-        use_reloader=False
+    host="0.0.0.0",
+    port=int(os.environ.get("PORT", 5001)),
+    debug=False
     )
